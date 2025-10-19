@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal de notas</title>
+  <style>
+    :root{--max:900px}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;margin:0;background:#f7f7f8;color:#111}
+    header{background:#0d3b66;color:#fff;padding:18px}
+    header h1{margin:0;font-size:1.15rem;letter-spacing:.2px}
+    main{max-width:var(--max);margin:24px auto;padding:0 16px}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 1px 2px rgba(16,24,40,.04);padding:18px}
+    label{display:block;font-size:.9rem;margin:8px 0 4px}
+    input,button{font:inherit}
+    input[type="password"],input[type="text"]{width:100%;padding:10px 12px;border:1px solid #d1d5db;border-radius:12px}
+    button{display:inline-flex;align-items:center;gap:.5rem;padding:10px 14px;border:0;border-radius:12px;background:#0d3b66;color:#fff;cursor:pointer}
+    button:disabled{opacity:.6;cursor:not-allowed}
+    .muted{color:#6b7280;font-size:.9rem}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .row>*{flex:1 1 260px}
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{border-top:1px solid #e5e7eb;padding:10px;text-align:left}
+    th{font-weight:600;background:#fafafa}
+    .pill{display:inline-block;padding:.15rem .5rem;border-radius:999px;border:1px solid #e5e7eb;background:#f9fafb;font-size:.8rem}
+    footer{max-width:var(--max);margin:40px auto 24px;padding:0 16px;color:#6b7280;font-size:.85rem}
+    .hidden{display:none}
+    /* Tabs */
+    .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px 0;padding:0}
+    .tab{list-style:none}
+    .tab>button{background:#eef2ff;color:#0d3b66;border:1px solid #c7d2fe;border-radius:999px;padding:8px 12px}
+    .tab>button[aria-selected="true"]{background:#0d3b66;color:#fff;border-color:#0d3b66}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal de notas</h1>
+  </header>
+  <main>
+    <nav aria-label="Selecciona tu clase" class="card" style="padding:12px">
+      <ul id="tabs" class="tabs" role="tablist"></ul>
+      <p id="tabHint" class="muted" style="margin:8px 0 0">Elige tu clase y escribe tu contraseña.</p>
+    </nav>
+
+    <div id="login" class="card">
+      <div class="row">
+        <div>
+          <label for="pass">Contraseña — <span id="grupoSel" class="muted">(elige clase arriba)</span></label>
+          <input id="pass" type="password" autocomplete="current-password" placeholder="••••••" />
+        </div>
+        <div style="align-self:flex-end">
+          <button id="btn" type="button">Acceder</button>
+        </div>
+      </div>
+      <p id="msg" class="muted" role="status"></p>
+      <details>
+        <summary>¿Problemas para entrar?</summary>
+        <ul class="muted">
+          <li>La contraseña es personal. Si no la tienes, pídela al profesor/a.</li>
+          <li>Respeta mayúsculas/minúsculas.</li>
+        </ul>
+      </details>
+    </div>
+
+    <section id="panel" class="card hidden" aria-live="polite">
+      <div class="row">
+        <div>
+          <h2 id="alumnoNombre" style="margin:.2rem 0 0"></h2>
+          <p class="muted" id="alumnoGrupo" style="margin:.2rem 0 0"></p>
+        </div>
+        <div style="text-align:right">
+          <span class="pill" id="mediaGlobal">Media: —</span>
+        </div>
+      </div>
+
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Prueba</th>
+            <th>Fecha</th>
+            <th>Calificación</th>
+            <th>Ponderación</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <p class="muted" style="margin-top:8px">Las calificaciones aquí mostradas tienen carácter informativo. Las revisaremos en clase.</p>
+      <div class="row" style="margin-top:8px">
+        <button id="salir">Salir</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="year"></span> — Portal de notas (demo). <span class="muted">Funciona sin servidor. No guardes datos sensibles.</span></p>
+  </footer>
+
+  <script>
+    const $ = (s, r = document) => r.querySelector(s);
+    const $$ = (s, r = document) => r.querySelectorAll(s);
+
+    let datos = { grupos: {} };
+    let seleccionado = null;
+
+    async function sha256(message) {
+      const enc = new TextEncoder();
+      const data = enc.encode(message);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    function formatoFecha(iso) {
+      if (!iso) return "—";
+      const d = new Date(iso + 'T00:00:00');
+      return d.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
+    }
+
+    function mediaPonderada(examenes) {
+      if (!examenes?.length) return null;
+      let suma = 0, total = 0;
+      for (const e of examenes) {
+        const p = Number(e.peso ?? 0);
+        const n = Number(e.nota ?? 0);
+        suma += n * p; total += p;
+      }
+      if (total === 0) return null;
+      return +(suma / total).toFixed(2);
+    }
+
+    function pintarTabla(examenes, tbody) {
+      tbody.innerHTML = '';
+      for (const e of examenes) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${e.titulo ?? '—'}</td>
+          <td>${formatoFecha(e.fecha)}</td>
+          <td>${(e.nota ?? '') === '' || e.nota === null ? '—' : e.nota}</td>
+          <td>${(e.peso ?? 0) * 100}%</td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    function buildTabs() {
+      const cont = $('#tabs');
+      cont.innerHTML = '';
+      const grupos = Object.keys(datos.grupos);
+      grupos.forEach((g, i) => {
+        const li = document.createElement('li');
+        li.className = 'tab';
+        const btn = document.createElement('button');
+        btn.role = 'tab';
+        btn.textContent = g;
+        btn.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+        btn.addEventListener('click', () => selectGrupo(g, btn));
+        li.appendChild(btn);
+        cont.appendChild(li);
+      });
+      if (grupos.length) selectGrupo(grupos[0], cont.querySelector('button'));
+    }
+
+    function selectGrupo(grupo, btnEl) {
+      seleccionado = grupo;
+      $('#grupoSel').textContent = grupo;
+      $('#msg').textContent = '';
+      $('#pass').value = '';
+      $('#panel').classList.add('hidden');
+      $('#login').classList.remove('hidden');
+      $$('#tabs button').forEach(b => b.setAttribute('aria-selected', b === btnEl ? 'true' : 'false'));
+    }
+
+    async function autenticar(pass) {
+      const lista = datos.grupos[seleccionado] || [];
+      const hash = await sha256(pass);
+      let alumno = lista.find(a => a.passHash && a.passHash === hash);
+      if (!alumno) alumno = lista.find(a => a.pass && a.pass === pass);
+      return alumno || null;
+    }
+
+    function mostrarPanel(alumno) {
+      $('#alumnoNombre').textContent = alumno.nombre;
+      $('#alumnoGrupo').textContent = alumno.grupo;
+      const m = mediaPonderada(alumno.examenes);
+      $('#mediaGlobal').textContent = `Media: ${m ?? '—'}`;
+      pintarTabla(alumno.examenes, $('#tabla tbody'));
+      $('#panel').classList.remove('hidden');
+      $('#login').classList.add('hidden');
+    }
+
+    function salir() {
+      $('#panel').classList.add('hidden');
+      $('#login').classList.remove('hidden');
+      $('#pass').value = '';
+      $('#msg').textContent = '';
+      $('#pass').focus();
+    }
+
+    $('#btn').addEventListener('click', async () => {
+      if (!seleccionado) { $('#msg').textContent = 'Primero elige tu clase arriba.'; return; }
+      const p = $('#pass').value.trim();
+      if (!p) { $('#msg').textContent = 'Introduce tu contraseña.'; return; }
+      $('#btn').disabled = true; $('#msg').textContent = 'Comprobando…';
+      try {
+        const alumno = await autenticar(p);
+        if (alumno) {
+          $('#msg').textContent = '';
+          mostrarPanel(alumno);
+        } else {
+          $('#msg').textContent = 'Contraseña no válida en ' + seleccionado + '.';
+        }
+      } finally {
+        $('#btn').disabled = false;
+      }
+    });
+
+    $('#pass').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') $('#btn').click();
+    });
+
+    $('#salir').addEventListener('click', salir);
+
+    // Cargar datos y arrancar
+    (async () => {
+      try {
+        const res = await fetch('datos.json', { cache: 'no-store' });
+        datos = await res.json();
+        buildTabs();
+      } catch (err) {
+        $('#tabHint').textContent = 'No se pudo cargar datos.json. Asegúrate de subirlo al mismo directorio.';
+      }
+    })();
+
+    $('#year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
