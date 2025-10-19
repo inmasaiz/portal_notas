@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel docente — Portal de notas</title>
+  <style>
+    :root { --max: 1100px; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; margin: 0; background: #f6f7fb; color: #111; }
+    header { background: #0d3b66; color: #fff; padding: 16px; }
+    header h1 { margin: 0; font-size: 1.1rem; }
+    main { max-width: var(--max); margin: 22px auto; padding: 0 16px; }
+    .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 14px; box-shadow: 0 1px 2px rgba(16,24,40,.06); padding: 16px; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    label { font-size: .9rem; color: #374151; }
+    input, select, button { font: inherit; }
+    input, select { padding: 8px 10px; border: 1px solid #d1d5db; border-radius: 10px; background: #fff; }
+    input[type="number"] { width: 90px; }
+    button { padding: 9px 12px; border: 0; border-radius: 10px; background: #0d3b66; color: #fff; cursor: pointer; }
+    button.ghost { background: #eef2ff; color: #0d3b66; border: 1px solid #c7d2fe; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border-top: 1px solid #e5e7eb; padding: 8px; text-align: left; font-size: .95rem; }
+    th { background: #fafafa; }
+    .muted { color: #6b7280; }
+    .hidden { display: none; }
+    .pill { display: inline-block; padding: .15rem .5rem; border-radius: 999px; border: 1px solid #e5e7eb; background: #f9fafb; font-size: .8rem; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+    .sep { height: 1px; background: #e5e7eb; margin: 12px 0; }
+    .danger { background: #b91c1c; }
+    footer { max-width: var(--max); margin: 30px auto 20px; padding: 0 16px; color: #6b7280; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Panel docente</h1>
+  </header>
+
+  <main>
+    <!-- Login -->
+    <section id="login" class="card">
+      <p class="muted">Introduce la contraseña docente para editar notas.</p>
+      <div class="row">
+        <label for="docpass">Contraseña docente</label>
+        <input id="docpass" type="password" placeholder="••••••••">
+        <button id="enter">Entrar</button>
+      </div>
+      <p id="loginMsg" class="muted"></p>
+    </section>
+
+    <!-- Panel -->
+    <section id="panel" class="hidden">
+      <div class="card">
+        <div class="toolbar">
+          <div class="row">
+            <label for="file">Cargar datos.json</label>
+            <input id="file" type="file" accept="application/json">
+            <button id="load" class="ghost">Cargar</button>
+          </div>
+          <div class="row">
+            <label for="grupo">Clase</label>
+            <select id="grupo"></select>
+          </div>
+          <div class="row">
+            <label for="alumno">Alumno</label>
+            <select id="alumno" style="min-width:260px"></select>
+          </div>
+          <button id="addExam" class="ghost">+ Añadir examen</button>
+          <button id="download">Descargar datos.json</button>
+        </div>
+        <div class="sep"></div>
+
+        <div id="alumnoBox">
+          <h3 id="alumnoTitle" style="margin:0 0 8px 0"></h3>
+          <span class="pill" id="grupoTag"></span>
+          <table id="tabla">
+            <thead>
+              <tr>
+                <th>Prueba</th>
+                <th>Fecha (YYYY-MM-DD)</th>
+                <th>Nota</th>
+                <th>Peso</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <p class="muted">Las celdas son editables. Deja la nota vacía o pon “-” para no calificar.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Este panel no guarda en el servidor: genera un <strong>datos.json</strong> actualizado para que lo subas al repositorio.</p>
+  </footer>
+
+<script>
+const DOC_PASS_HASH = "8744d6db482386c2d5adbca4d0bb45f556d8e6468f0e1476e53f4ae33deb0c67"; // SHA-256 de 201182Inma
+
+// util
+const $ = (s,r=document)=>r.querySelector(s);
+const $$ = (s,r=document)=>r.querySelectorAll(s);
+
+async function sha256(message){
+  const enc = new TextEncoder();
+  const data = enc.encode(message);
+  const h = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+// estado
+let datos = { grupos: {} };
+let selGrupo = null;
+let selAlumnoIdx = 0;
+
+// login
+$('#enter').addEventListener('click', async ()=>{
+  const pass = $('#docpass').value.trim();
+  if(!pass){ $('#loginMsg').textContent = 'Escribe la contraseña.'; return; }
+  const h = await sha256(pass);
+  if(h === DOC_PASS_HASH){
+    $('#login').classList.add('hidden');
+    $('#panel').classList.remove('hidden');
+    await cargarDatosIniciales();
+  } else {
+    $('#loginMsg').textContent = 'Contraseña incorrecta.';
+  }
+});
+
+$('#docpass').addEventListener('keydown', e=>{ if(e.key==='Enter') $('#enter').click(); });
+
+async function cargarDatosIniciales(){
+  try{
+    const res = await fetch('datos.json', {cache:'no-store'});
+    datos = await res.json();
+  }catch(e){
+    // si no hay datos.json aún, se mantiene objeto vacío
+  }
+  poblarGrupos();
+}
+
+function poblarGrupos(){
+  const gsel = $('#grupo');
+  gsel.innerHTML = '';
+  const grupos = Object.keys(datos.grupos);
+  if(grupos.length===0){
+    const opt = document.createElement('option');
+    opt.textContent = 'Sin datos (carga datos.json)';
+    opt.value = '';
+    gsel.appendChild(opt);
+    $('#alumno').innerHTML='';
+    $('#alumnoBox').classList.add('hidden');
+    return;
+  }
+  grupos.forEach((g,i)=>{
+    const opt = document.createElement('option');
+    opt.value = g;
+    opt.textContent = g;
+    gsel.appendChild(opt);
+  });
+  selGrupo = grupos[0];
+  gsel.value = selGrupo;
+  poblarAlumnos();
+}
+
+function poblarAlumnos(){
+  const asel = $('#alumno');
+  asel.innerHTML='';
+  const lista = datos.grupos[selGrupo] || [];
+  lista.forEach((a,i)=>{
+    const opt = document.createElement('option');
+    opt.value = String(i);
+    opt.textContent = a.nombre;
+    asel.appendChild(opt);
+  });
+  selAlumnoIdx = 0;
+  if(lista.length){ asel.value = '0'; mostrarAlumno(); }
+  $('#alumnoBox').classList.toggle('hidden', lista.length===0);
+}
+
+$('#grupo').addEventListener('change', e=>{
+  selGrupo = e.target.value;
+  poblarAlumnos();
+});
+
+$('#alumno').addEventListener('change', e=>{
+  selAlumnoIdx = Number(e.target.value);
+  mostrarAlumno();
+});
+
+function mostrarAlumno(){
+  const alumno = datos.grupos[selGrupo][selAlumnoIdx];
+  $('#alumnoTitle').textContent = alumno.nombre;
+  $('#grupoTag').textContent = alumno.grupo;
+  const tbody = $('#tabla tbody');
+  tbody.innerHTML='';
+  (alumno.examenes||[]).forEach((ex, idx)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><input value="${ex.titulo ?? ''}" data-k="titulo"></td>
+      <td><input value="${ex.fecha ?? ''}" data-k="fecha" placeholder="2025-10-18"></td>
+      <td><input value="${(ex.nota ?? '') === '' || ex.nota === null ? '' : ex.nota}" data-k="nota" type="number" step="0.1" min="0" max="10" placeholder="-"></td>
+      <td><input value="${ex.peso ?? 1}" data-k="peso" type="number" step="0.05" min="0" max="1"></td>
+      <td><button class="danger" data-del="${idx}">Eliminar</button></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+$('#tabla').addEventListener('input', e=>{
+  const alumno = datos.grupos[selGrupo][selAlumnoIdx];
+  const tr = e.target.closest('tr');
+  if(!tr) return;
+  const rows = Array.from($('#tabla tbody').children);
+  const idx = rows.indexOf(tr);
+  const key = e.target.getAttribute('data-k');
+  let val = e.target.value;
+  if(key==='nota'){
+    val = val===''? null : Number(val);
+  } else if(key==='peso'){
+    val = Number(val);
+  }
+  alumno.examenes[idx][key] = val;
+});
+
+$('#tabla').addEventListener('click', e=>{
+  if(e.target.matches('button[data-del]')){
+    const idx = Number(e.target.getAttribute('data-del'));
+    const alumno = datos.grupos[selGrupo][selAlumnoIdx];
+    alumno.examenes.splice(idx,1);
+    mostrarAlumno();
+  }
+});
+
+$('#addExam').addEventListener('click', ()=>{
+  const alumno = datos.grupos[selGrupo][selAlumnoIdx];
+  if(!alumno.examenes) alumno.examenes = [];
+  alumno.examenes.push({ titulo: "Nuevo examen", fecha: "", nota: null, peso: 1.0 });
+  mostrarAlumno();
+});
+
+// Cargar desde archivo
+$('#load').addEventListener('click', ()=>{
+  const f = $('#file').files[0];
+  if(!f) return;
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    try{
+      datos = JSON.parse(reader.result);
+      poblarGrupos();
+      alert('datos.json cargado correctamente.');
+    }catch(e){
+      alert('Archivo JSON no válido.');
+    }
+  };
+  reader.readAsText(f, 'utf-8');
+});
+
+// Descargar datos.json
+$('#download').addEventListener('click', ()=>{
+  const blob = new Blob([JSON.stringify(datos, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'datos.json';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+});
+</script>
+</body>
+</html>
