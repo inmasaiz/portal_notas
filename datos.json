@@ -1,0 +1,1457 @@
+{
+  "grupos": {
+    "E2A": [
+      {
+        "nombre": "Abascal Cantero, Héctor",
+        "grupo": "E2A",
+        "passHash": "079e2c2fe2d018cf49f12229a41c1c815ca559b8f84b4378860339fc2371796d",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 10.2,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Agüeros Conde, Estela",
+        "grupo": "E2A",
+        "passHash": "7eafb65a96aa9e073a65183763c01ec64e3672031f28392574a0ca5b9a9b38b0",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.6,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Alghadban Alahmad, Hamsah",
+        "grupo": "E2A",
+        "passHash": "fb0bd422d20b3bd9e99528b0b303b232a8cc0dca73a190ea4cd0bd87b70621aa",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Cabrero Pérez, Nicolás",
+        "grupo": "E2A",
+        "passHash": "c43f4b6395c0ecc18ff25231cbb8b4cdbc059fae90415b048a508dc252d4d3e1",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.6,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Cabrero Pérez, Raúl",
+        "grupo": "E2A",
+        "passHash": "ed66b0f907881d293281f02f39ca788570891a6558a9a99a2342e774a1bf6e8b",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Díaz De la Vega, José",
+        "grupo": "E2A",
+        "passHash": "b9cf265fad444c8b09b31a87cf690690ed532faacfd8e1eff64b661ee2b8268e",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 10.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Díez Arciniega, Víctor",
+        "grupo": "E2A",
+        "passHash": "cd131e16f0d56ad688eb9c3affa9b14e86b89b8e1a799cf314b8f95f8aed70f6",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 3.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández Valero, Candela",
+        "grupo": "E2A",
+        "passHash": "4b52a71ceac4f9bc10ca2641bf6de3a17e5a31dddccf2059aac5042532dd3509",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 4.8,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "González Rebanal, Lucía",
+        "grupo": "E2A",
+        "passHash": "cb23b477051421cb41830658c25e8a3ac78345c7bbfda096fd2c018a07e2a55c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.7,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez Pankratjev, Martín",
+        "grupo": "E2A",
+        "passHash": "f50c2ca1e79fc6395a6ecc0b8cd9d7997889bb2beccd2339ce0f48a5e0a68b9f",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.8,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Jiménez Jiménez, Carla",
+        "grupo": "E2A",
+        "passHash": "725539c6dff1d41151f861eb330b5cb4602433bc31fa8276a92e343ff07b6b67",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "López García, Julia",
+        "grupo": "E2A",
+        "passHash": "ff10396022324ac2dd2945094ff39f668a723fe84439fdae3cdf2fa6821a943a",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.8,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Merinero Gomez, Yago",
+        "grupo": "E2A",
+        "passHash": "51f4c3a7946d5a506ff247436e00ae03180fdd47061c078b302219f03a8d101c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Obregon Cueto, Aroa",
+        "grupo": "E2A",
+        "passHash": "e3a700be539dee155efcd4c8407f7e4ed9f0d4ffe0b3da838f39d237947b361c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Parama Portela, Juan Pedro",
+        "grupo": "E2A",
+        "passHash": "985913d868304d4ea7f3b27f607d55f9eac8f18c6132f3d413ba6d4ae188e942",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Rezki Fatin, Aya",
+        "grupo": "E2A",
+        "passHash": "5b58a944201f8439703ffa23fbd61be62e7aa75d3fd77d1556ca58f29485c66b",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Rodríguez González, Eloy",
+        "grupo": "E2A",
+        "passHash": "3372abc3e00931497371da1a07096757bec96b4d0b6eaf1931c4898811a9bed6",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 10.2,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Rosillo Castellón, Oscar",
+        "grupo": "E2A",
+        "passHash": "1d357f804cb21fe8857e740e97dbd538ac3b4058ee4d856da74f7cfd3b4e6218",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "San Jose Zurita, Airam",
+        "grupo": "E2A",
+        "passHash": "c403c1e5d577bcf8f1737591f11911584fd15a59abae15b282e611a7a8f9c719",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Santos García de los Salmones, Jimena",
+        "grupo": "E2A",
+        "passHash": "4183a1c9718facb1bb3d7aa560f89633deaf508f60413bf1fc79e22f743422a7",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      }
+    ],
+    "E2B": [
+      {
+        "nombre": "Bautista Ureña, Yainer Alexander",
+        "grupo": "E2B",
+        "passHash": "4f850d775acdaba6e27003b15688fefb133fed508ce57927c4eb58f4b8191764",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Castañeda Jorrin, Lara",
+        "grupo": "E2B",
+        "passHash": "68ca3df0105932f0d7de10e14a61956e0261a2233903bb5cf9917da1eb05fa56",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 3.75,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Castellón Jiménez, Yerai",
+        "grupo": "E2B",
+        "passHash": "f842179cd8b6141a0836b39c8f0c812ecbe3b91405d473c4f3d6c2a60afbc228",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Diego Cosgaya, Mónica",
+        "grupo": "E2B",
+        "passHash": "e287e78199f0c152fa55c7dd2bfa73a15622eeae85fcf3c62fd3846821a7fbff",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.6,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Diego Cosgaya, Vanesa",
+        "grupo": "E2B",
+        "passHash": "a1b13cc64d0baa39556f75d6989c5e7d8718d2e755568771728ed9c227b6a8cf",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "El Imani, Oussama",
+        "grupo": "E2B",
+        "passHash": "67865071fa2a9e33fc6c55a1c5e7e6a4b96579aa27cde36490c1f8c92ae4e48d",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.25,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Etxaburu Vélez, Jana",
+        "grupo": "E2B",
+        "passHash": "3c258b06aa813a531993784e1a1c549c527596798edb84153b1c319f4d8c1030",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández Bordetas, Nicolás",
+        "grupo": "E2B",
+        "passHash": "dd548a01e499348a0079e59622fbf8261e5e2d3684d09ca975f7e1387ec5e0a7",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fortoul Cárdenas, Dalbelis Catherin",
+        "grupo": "E2B",
+        "passHash": "55c30a2700b2b20fff3438b1d48800a14f0b586e6f8124a5ca43c36754cb0692",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fraile Castañeda, Claudia",
+        "grupo": "E2B",
+        "passHash": "98e6499c769fc2c2c51e1c212e0a3f76a7f9ea3063d2751639199fb6e737607e",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "González Teran, Marina",
+        "grupo": "E2B",
+        "passHash": "225014b379070c63638dd62489421fe8cd4dcf18f8a44f365de97a629361b100",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 4.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez Gómez, Míriam",
+        "grupo": "E2B",
+        "passHash": "c87e0178f0536e1c3c75f201f651492f7a9f79d6ad252bb11fe3bfec9bc498cd",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.2,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez Álvarez, Raúl",
+        "grupo": "E2B",
+        "passHash": "6ae650571effb262d4d36a981f396f12eb74b5ee02b0709cae6b43d84f81cf18",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gómez Villanueva, Adrian",
+        "grupo": "E2B",
+        "passHash": "a74aef93d4c8e06c0ba445fda43f14d87b7b1d5440d867f978a7a4756f316cf2",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "López Castanedo, Mario",
+        "grupo": "E2B",
+        "passHash": "350c8b7e0cffb917b8c4e0a3653a68c3d42d7634d6b73c0c9da5e69013890dd9",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "López Gutiérrez, Ariadna",
+        "grupo": "E2B",
+        "passHash": "5dcc8bbdde8d89ae5165b0a55b291a6259d2b0601a0aec8a32795aefd1e4ef40",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.25,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Nicol Brown, Cindy Olive",
+        "grupo": "E2B",
+        "passHash": "cf2dec264162c69bf744952da730158453f1de11ddbe4764a7665507eb211864",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.4,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Rebolledo Fernández, Carla",
+        "grupo": "E2B",
+        "passHash": "73617bd532c99f371605d5ec1d146f065590610271b2bc47a712e5e4f5c87fe3",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.7,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Ruiz de Villa Solorzano, Mario",
+        "grupo": "E2B",
+        "passHash": "b9e2225bbf7947cab69d9f87192aa35680ebe594003a106053c13cb04550a0b4",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Saiz Caviedes, Adriana",
+        "grupo": "E2B",
+        "passHash": "58dddb7f9939ca1bb74241cbda392391b1444527e66d22e206fe47ced9ab32cb",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Trueba Falcón, Roi",
+        "grupo": "E2B",
+        "passHash": "867442f05aab4fb85d77ff68d02a41975608cb4f3dfb7fae5d38d924822c03b9",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      }
+    ],
+    "E3A": [
+      {
+        "nombre": "Abdelnaur Jimenez, Pedro",
+        "grupo": "E3A",
+        "passHash": "3bb493451f5e9205d698e961f02322ccb5ef937a4d8c333eafe73cd056b08eac",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Alghadban Kasam, Aya",
+        "grupo": "E3A",
+        "passHash": "0d88a4bc9579a88744cf3165f817df83562c026a6ab797f11e70100f07c4f41c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Alonso Sanz, Mateo",
+        "grupo": "E3A",
+        "passHash": "b13b24d5a2d7d461940c7320f38c829bafce0590a2ee781de9907744612b27cd",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Caballero González, Laura",
+        "grupo": "E3A",
+        "passHash": "ace2bb0c186facbcfb806639ed2e59d36ee7f9c9603ec6b0b6f5d7533922909d",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Delgado Gómez, Saúl",
+        "grupo": "E3A",
+        "passHash": "e6c4df2e2d7f26c222d606d23cb411312cbdbf5d4ab7b13bf852593e65c5d7ef",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Diaz Merino, Jose Maria",
+        "grupo": "E3A",
+        "passHash": "9c2d8a03006553cc72b67580dd41a33953fed412655281693b77b1be6b4ae2d8",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Echevarría González, Efrén",
+        "grupo": "E3A",
+        "passHash": "13258fb4dcc0f2dff7138c108d95f7838f2f8dd646c3301bc61a890e27b4833d",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández Balbas, Alejandro",
+        "grupo": "E3A",
+        "passHash": "f1ca80653b5b6553c138942501b9d1fc8b852490799ac2313dfa137008a123d7",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández Barreda, Iker",
+        "grupo": "E3A",
+        "passHash": "e69a62177098c6e64eda1bf47d85b80f70c8e398a41d5e30637e81c80945ebf7",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández González, Xael",
+        "grupo": "E3A",
+        "passHash": "1444a295e0b58af02b8f11c9a7f408ee09de3434c4907a936d3be7208aa1d527",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Fernández Montes, David",
+        "grupo": "E3A",
+        "passHash": "61cc7f88820940d9c1b852a35ab6ba659806fd7e79078568cd3e4a412e77e211",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Garcia Cabo, Marco",
+        "grupo": "E3A",
+        "passHash": "6e3e589ee4ebad84b650d1031e8cd3e976fbc9831850e6086480168acfabce79",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Garcia Gomez, Julia",
+        "grupo": "E3A",
+        "passHash": "4a3aa65f92fe316031bdf91e132d1b72347110b4635bbd6c4b570180ff44e975",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Garrido Álvaro, Cristina",
+        "grupo": "E3A",
+        "passHash": "85f8786088993a41b100dd5d0f192b64887ea64e6549a140e108e814bc67b3fd",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gayol Iturregui, Carla",
+        "grupo": "E3A",
+        "passHash": "e4ba4b3bd460b1c6226ba99088f8f5a8ff5c944f0005dbc8b6e6fb37d95ef797",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez Blanco, Olga",
+        "grupo": "E3A",
+        "passHash": "a4aec035653daa969c31ea4def2fe7d76f91f4757c2f31948a75edc2b8eec6bd",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Iglesias Rubín, Esther",
+        "grupo": "E3A",
+        "passHash": "01c8e52f345004a1079f83ea2853bf7905fd7146c874988e7c874e732fe188eb",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Kadiri El Boustaoui, Mosaab",
+        "grupo": "E3A",
+        "passHash": "934cb062268e0d6b0e750c64c4c6a27e2949ef6732695ca44b722b3a47a355f5",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Martínez Manteca, Nerea",
+        "grupo": "E3A",
+        "passHash": "cd37489e02d8789a627823aa95cac2b41f82cd94a2ef548fa743a4b79d6ee901",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Mazon Vidal, Alex",
+        "grupo": "E3A",
+        "passHash": "8e1fafeb4544af51f8116d46e79941d0824f920cfa7f23d34817c57012350498",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Oria Gómez, Elena",
+        "grupo": "E3A",
+        "passHash": "021d8b415e1b5c38fb78c206bb69fc82a49e869cc74f26f730be561ca7315fec",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Saiz Pereira, Borja",
+        "grupo": "E3A",
+        "passHash": "951326390f2e66db70d525cb67d1589c25f082ff1f8271b16e7150613d2768c1",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Santiago Fernandez, Raul",
+        "grupo": "E3A",
+        "passHash": "7f461ebbf56e3481ebc96587a5434ec891771e6522249b6b5bc4233d2b41beef",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Varela De la Cruz, Diego",
+        "grupo": "E3A",
+        "passHash": "78fd538879ebc027bfeb859eb23aebf7843c6b6f852bbc136de6ce17bb5311d8",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Vega Valcarcel, Daniela",
+        "grupo": "E3A",
+        "passHash": "95f7fb3717a8fed935f4469363ecefb6d2570c6938737b1bd535fe556235feaa",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      }
+    ],
+    "E3B": [
+      {
+        "nombre": "Arias Sánchez, Alba",
+        "grupo": "E3B",
+        "passHash": "70c86df83c1374da2d7854ec67363392c8432df2cb3744410205ae2c13535ba5",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Brkic Brkic, Filip",
+        "grupo": "E3B",
+        "passHash": "89bb8a2f492fdaea9372b11099424ed9be241790b4729378f907aa78d0901bb3",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Cabezas Hormaechea, Hugo",
+        "grupo": "E3B",
+        "passHash": "672e8cfc0488853ae2dd860c2a248422d2af5177736284ea25e9aab5397dd2ab",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Candelario Anuarbe, Patricia",
+        "grupo": "E3B",
+        "passHash": "fc439c6195ac209cab4e8737e8e8cf21cdc04985066b84607a336438f1e36563",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Castro Muñoz, Nayra Anais",
+        "grupo": "E3B",
+        "passHash": "192d29d4b4b8da789eeab1a7c6864a639544afc946269973b25360758abe23d9",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Estrada Soberón, Agueda",
+        "grupo": "E3B",
+        "passHash": "caa5fcc99e9f39fdc4e7635a6acb9630f0a20ab7b1aee318d96a140909e8a2a4",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "González Cabarga, Alfonso",
+        "grupo": "E3B",
+        "passHash": "a30b6236200ddb190c9e5cdd9686519296e9317e347c5e018a5fa4c77d9234e6",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Grande Acebo, Vega",
+        "grupo": "E3B",
+        "passHash": "7aa1dcb2984cc0b5dfc4ad4ebe54bb765b9cf60e94e0dc5748ffacedd569899c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.4,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Grande Hoyos, Yeray",
+        "grupo": "E3B",
+        "passHash": "d67c9c427802f9c7ed10bad0d42525ed09805eda0bd166772f443102dc21ccc0",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 7.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez Garcia, Saul",
+        "grupo": "E3B",
+        "passHash": "53645114d390d5866651f397bf07f99e48ccc85536eeba8438e01ccb636e6d33",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Gutiérrez López, Martina",
+        "grupo": "E3B",
+        "passHash": "10da34e4d6827771f9af81a1edc9f4a262c5d68310b5d538d05535b82e80de87",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Hernández Criado, Naiara",
+        "grupo": "E3B",
+        "passHash": "2126cdfe850624df70a8ec3c38957af52446c880cf8ad6d3f5c2fcbf9d4d1299",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Hurtado Gutiérrez, Izara",
+        "grupo": "E3B",
+        "passHash": "7c831add3c2d57e36e690f688daad53719e512e39b8b6e318625dfc4af92b886",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.2,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Lakhdar Ajbirh, Nour",
+        "grupo": "E3B",
+        "passHash": "792e87de78d873f7d283208c7f6b0086baa1e24cd35c695a9c0590480960111c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "López Castanedo, Alba",
+        "grupo": "E3B",
+        "passHash": "725c6ece4a902dbaa7d14e2ff57b7814cccfefdc78a39a677dc6095b2c339da9",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Machado Cifuentes, Daniel Alejandro",
+        "grupo": "E3B",
+        "passHash": "8e063592f949f7a898b9397406cd2846ea02c37c99f5882cf985b7945e071b88",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Martínez Pérez, Martina Irene",
+        "grupo": "E3B",
+        "passHash": "21ede110a4aa6154305140da1c91ca5edd1c40cd8983d35fca3709a5dd602b33",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Mazo Blanco, Susana",
+        "grupo": "E3B",
+        "passHash": "c2ceb8acc6f9ccbbf38f906f77a82a02b4635ff795ad69da17137fe4734382ae",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Montes González, Mario",
+        "grupo": "E3B",
+        "passHash": "a0df2b4546058375450ede2d9b07eee355e562f29512263c7143d8558362656a",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.8,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Rubio Cruz, Valeria",
+        "grupo": "E3B",
+        "passHash": "f8ad4ef763e8798c84104dd8bc8bbdc0171ea8fb50bab5849ceee34c5547f2b1",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Saiz García, María",
+        "grupo": "E3B",
+        "passHash": "fa2c06398b28290750343515c2590d97a1caeda1b9c2ea884309f1e99ca83777",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Santiago Quintana, Daniel",
+        "grupo": "E3B",
+        "passHash": "5a6060b393788f90969459d3a38fc5e1daa025e7d20380d40512e0511dfad117",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Tapia Mazón, Noa",
+        "grupo": "E3B",
+        "passHash": "f1352a72519ac7e3df97b94980dca889a7c6efa1c3e3ae64dae100f8340e1c81",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 5.0,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Vázquez López, Iduna",
+        "grupo": "E3B",
+        "passHash": "9cdd6efba58df02e6f5e6aa0a98fdd99fb1ccbc65eeda8fc551e060e256f2cb3",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      }
+    ],
+    "E3C": [
+      {
+        "nombre": "Adjei Kumi, Mabel Korkor",
+        "grupo": "E3C",
+        "passHash": "7c1c35a16b7ec4bda6d30cd9a0803e46caf2fedd980b56d61a6832cee86c07c0",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.75,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Aja García, Sofía",
+        "grupo": "E3C",
+        "passHash": "16247e28d32f7df1ab03dfc06eb39382d222a686adc0eb1793c7bba4620b3f9c",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.9,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Arena Rojo, Aitana",
+        "grupo": "E3C",
+        "passHash": "0211a9615b86155e5fc6c9bc59a72b579b50967562e7fbba6f86021d6d64875d",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.9,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Bordetas González, Izan",
+        "grupo": "E3C",
+        "passHash": "ed3b7da7852585c4cf05484edfb9d47b6027f7a53d689f2215a79096492b734f",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 4.9,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Cobo Herrera, Pablo",
+        "grupo": "E3C",
+        "passHash": "600694ab25aa404e283898dc6e126ff7f8256f0593ca45b595f5df1e43112554",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.95,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "De Cos Obregon, Nekane",
+        "grupo": "E3C",
+        "passHash": "9b6df5b96a33fd7f8052f9c9509e128d0a3c108e0a932479f36a8b6ba9ee1a98",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Del Rosario Blanco, Daniela",
+        "grupo": "E3C",
+        "passHash": "d638ba98e47b3e69f003a46035334ee84033ee517ca73b714c7b1bb9dd1373a1",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "El Amraoui El Amraoui, Widad",
+        "grupo": "E3C",
+        "passHash": "8b438c2fb3a266623dea553d86de8e4ba037c0a359014e0486e3d2d27a4eaa19",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 3.15,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Huayambe Ccahuay, Angely Christell",
+        "grupo": "E3C",
+        "passHash": "3f3e2477cc8124d40217d0289f84534bfebb07ceafe138457cd9eb16c022f0b9",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 3.5,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Lombilla Miera, Daniela",
+        "grupo": "E3C",
+        "passHash": "8ed1ec4b02dc8586bf91164351ac96743dc682b06099170a96d7692aabe6bb91",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "López Vallés, Daniel",
+        "grupo": "E3C",
+        "passHash": "056eda1fbcb703d6c72934dce03d8d0a0795e6798dc8f492a77925e5daec4812",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 4.4,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Mendoza Medrano, Axel Santiago",
+        "grupo": "E3C",
+        "passHash": "4a7963c2ca16908d32b0001e23337a102dc130795d3fa7e76580b62d65662bdd",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Mendoza Ramirez, Jean Franco Josue",
+        "grupo": "E3C",
+        "passHash": "e2047be1a1be9fa11059a50c5bb950f453db105f22d3af661a5fa0d8e9e7998a",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 4.75,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Ortiz Quevedo, Mateo",
+        "grupo": "E3C",
+        "passHash": "67cc358886f44681f7dab4b0856f0236eb3e687d3371640c38c628b0cb807c85",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 8.65,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Posada Pérez, Lucía",
+        "grupo": "E3C",
+        "passHash": "3de2de7f751bcaa7a4d2f5406a80fc4e84ce86689e1cc5a32a8252a8c006680a",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 9.3,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Shoaib, Muhammad",
+        "grupo": "E3C",
+        "passHash": "7f24457db0152d85c5ae3f6d49898d2dd2272549253c49fb9cfcd0afc058d0b7",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Soares De Paula, Maria Victoria",
+        "grupo": "E3C",
+        "passHash": "e49805cf2d279c366565f54622124ce809c4632c191757b3b4c9bab240b79142",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 3.65,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Torres Murillo, Maricielo",
+        "grupo": "E3C",
+        "passHash": "2b1fe2a7bf1c68429865963bed23953b911585b07cb12114287309a8548e8819",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Urdaniga Linares, Héctor Miguel",
+        "grupo": "E3C",
+        "passHash": "61560dcbf5a852857824f2ce23c742e86e641fde9aa66f9d89698d04b15ff18a",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.8,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Verea Carretero, Mariangel",
+        "grupo": "E3C",
+        "passHash": "869c676e8372a1b90b9d08142df1435bb70e2fbce751746d74289ebb8c2f342f",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": null,
+            "peso": 1.0
+          }
+        ]
+      },
+      {
+        "nombre": "Villegas Carrera, Ismael",
+        "grupo": "E3C",
+        "passHash": "793f18a2990757c029b4e9f3f9cb08508e60e415249e24bda74bb29bb23345ca",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.5,
+            "peso": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}
