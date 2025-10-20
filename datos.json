@@ -1,0 +1,657 @@
+{
+  "grupos": {
+    "E2A": [
+      {
+        "nombre": "21Bautista Ureña, Yainer Alexander",
+        "grupo": "E2A",
+        "pass": "rdGAlfXA",
+        "passHash": "53a1b3eafa09b15623861f9f3986b952781d0a48b1dd0291e6ac88f458eac229",
+        "examenes": []
+      },
+      {
+        "nombre": "Castañeda Jorrin, Lara",
+        "grupo": "E2A",
+        "pass": "eznWcPpu",
+        "passHash": "5ba81ed841714199a5646466d4259117fdb433dae73c8324c4e988f85da41c78",
+        "examenes": []
+      },
+      {
+        "nombre": "Castellón Jiménez, Yerai",
+        "grupo": "E2A",
+        "pass": "1OhX7ASg",
+        "passHash": "85ab431ae3e8737c7f68721af80d14e07ffddde17fa4b5f3e11195d2b606a309",
+        "examenes": []
+      },
+      {
+        "nombre": "Diego Cosgaya, Mónica",
+        "grupo": "E2A",
+        "pass": "Cosgaya",
+        "passHash": "1c97f715fe7f83709b5008b801a53e9ebaf967b2faf166200339e0cb6135394e",
+        "examenes": []
+      },
+      {
+        "nombre": "Diego Cosgaya, Vanesa",
+        "grupo": "E2A",
+        "pass": "Cosgaya",
+        "passHash": "1c97f715fe7f83709b5008b801a53e9ebaf967b2faf166200339e0cb6135394e",
+        "examenes": []
+      },
+      {
+        "nombre": "El Imani , Oussama (B)",
+        "grupo": "E2A",
+        "pass": "VO1Wnjp4",
+        "passHash": "e4929a307dc4e03aac67deefd7fab05b017c148cdc6584abe2303b181c1abb73",
+        "examenes": []
+      },
+      {
+        "nombre": "Etxaburu Vélez, Jana (B)",
+        "grupo": "E2A",
+        "pass": "9qQBC0EV",
+        "passHash": "50282934574452da391710f0d3013a1fe5c98bdbe3e9f6a98349a49925f463b1",
+        "examenes": []
+      },
+      {
+        "nombre": "Fernández Bordetas, Nicolás",
+        "grupo": "E2A",
+        "pass": "Bordetas",
+        "passHash": "24c5ad4b1047ad682b2e6ea44ec1cdfeb8b428c2bbc44198beb0e7b415fd055e",
+        "examenes": []
+      },
+      {
+        "nombre": "Fortoul Cárdenas, Dalbelis Catherin",
+        "grupo": "E2A",
+        "pass": "T1aMEM3l",
+        "passHash": "ad05d068bdff514d9bf1dd89050d45482033a89291a21230a3d7bc7ac5414963",
+        "examenes": []
+      },
+      {
+        "nombre": "Fraile Castañeda, Claudia",
+        "grupo": "E2A",
+        "pass": "av4M2v7g",
+        "passHash": "a70e70c9aa42b5a2fbaf575258c1f612020a28f35fb606114a9d9df6ae9ad794",
+        "examenes": []
+      },
+      {
+        "nombre": "Gómez Villanueva, Adrian",
+        "grupo": "E2A",
+        "pass": "Villanueva",
+        "passHash": "9dd35bffac4f7ba1d55607341c4c94405a980ec4c78d42eca39a8823baabe919",
+        "examenes": []
+      },
+      {
+        "nombre": "González Teran, Marina",
+        "grupo": "E2A",
+        "pass": "xIqKia3b",
+        "passHash": "7405246a117b77ec163c4025567a491d49fbc1b0ec880e0615eecf96755d6438",
+        "examenes": []
+      },
+      {
+        "nombre": "Gutiérrez Álvarez, Raúl",
+        "grupo": "E2A",
+        "pass": "NwfZZyV6",
+        "passHash": "7ca2a79ab474a74fb8c3794039fe1e36934a96f3723df8d577ce97f1658753e0",
+        "examenes": []
+      },
+      {
+        "nombre": "Gutiérrez Gómez, Míriam (B)",
+        "grupo": "E2A",
+        "pass": "Yf2ZxS1V",
+        "passHash": "714328b278ef528967bf4c73ddb3c8b4fe5a503f4c95322ae26cf6a0da0465fa",
+        "examenes": []
+      },
+      {
+        "nombre": "López Castanedo, Mario",
+        "grupo": "E2A",
+        "pass": "Castanedo",
+        "passHash": "c52908bba3d5224eb359daac2651175362c940b9d6c9eeca1bb32c156773591e",
+        "examenes": []
+      },
+      {
+        "nombre": "López Gutiérrez, Ariadna (B)",
+        "grupo": "E2A",
+        "pass": "7rtSeIg2",
+        "passHash": "a70db276325b87f0d65cc9c5e4e886614c735d3caeca5373256c04b200d791be",
+        "examenes": []
+      },
+      {
+        "nombre": "Nicol Brown, Cindy Olive (B)",
+        "grupo": "E2A",
+        "pass": "B68gQIME",
+        "passHash": "56eb4752ce0e0c9034545b55cb99b08c70968155421915e3aa1d02f1197a26c2",
+        "examenes": []
+      },
+      {
+        "nombre": "Rebolledo Fernández, Carla",
+        "grupo": "E2A",
+        "pass": "Rebolledo",
+        "passHash": "e28f273aa39354bdb9e8296fa6436d517f0ab00a184046a442343c8a0234c455",
+        "examenes": []
+      },
+      {
+        "nombre": "Ruiz de Villa Solorzano, Mario",
+        "grupo": "E2A",
+        "pass": "Solorzano",
+        "passHash": "6939586c5df9940f6a7e7e32e920633361b9360efb869b1b417f4a3db32baebe",
+        "examenes": []
+      },
+      {
+        "nombre": "Saiz Caviedes, Adriana (B)",
+        "grupo": "E2A",
+        "pass": "BZZfnM9O",
+        "passHash": "9a9aae980f853ec4dddae731a6542300859de6f93d06597370e03293b184616e",
+        "examenes": []
+      },
+      {
+        "nombre": "Trueba Falcón, RoiNº orden AlumnoTUTOR :AÑO ACADÉMICO 2025/2026",
+        "grupo": "E2A",
+        "pass": "f6go1Y6x",
+        "passHash": "385302363f3d10de0398e7590ccbbb82dc0a7014c4f1985b0ee1a731eef1b068",
+        "examenes": []
+      }
+    ],
+    "E2B": [
+      {
+        "nombre": "25Abdelnaur Jimenez, Pedro",
+        "grupo": "E2B",
+        "pass": "KcWxJUDe",
+        "passHash": "ae64502f01a12fd68b7f00a841a6363d519f1065863d0b71c15f920ae03cfd42",
+        "examenes": []
+      },
+      {
+        "nombre": "Alghadban Kasam, Aya",
+        "grupo": "E2B",
+        "pass": "Alghadban",
+        "passHash": "8a7100223e39fe4053b03e93e91348a421ce7b316d695c9c116cb31b364cf8a3",
+        "examenes": []
+      },
+      {
+        "nombre": "Alonso Sanz, Mateo",
+        "grupo": "E2B",
+        "pass": "AmBhzFdW",
+        "passHash": "1f21ecfb30e25197634f02ed893a19fca51cdbfa563cd8e274d9444eb2118639",
+        "examenes": []
+      },
+      {
+        "nombre": "Caballero González, Laura",
+        "grupo": "E2B",
+        "pass": "Caballero",
+        "passHash": "daee248321594befe98823e0f61e2988ccdbb38f53f8765b97ce09835db154ba",
+        "examenes": []
+      },
+      {
+        "nombre": "Delgado Gómez, Saúl",
+        "grupo": "E2B",
+        "pass": "Delgado",
+        "passHash": "3d4aa16c7868e6d91b75a2985d205940791b686136719e9038305efb7c09cbe9",
+        "examenes": []
+      },
+      {
+        "nombre": "Diaz Merino, Jose Maria",
+        "grupo": "E2B",
+        "pass": "PR1kdZ3D",
+        "passHash": "7b8b926325195221e49f46268ce125dc0af1af27d7290d5441f290a7914e9aba",
+        "examenes": []
+      },
+      {
+        "nombre": "Echevarría González, Efrén",
+        "grupo": "E2B",
+        "pass": "rEag5ESN",
+        "passHash": "58c8494d18bdb86906772ed00a0a617a9f7b15e7084e8cc8b03872bad2ece6ba",
+        "examenes": []
+      },
+      {
+        "nombre": "Fernández Balbas, Alejandro",
+        "grupo": "E2B",
+        "pass": "HcRWwXMf",
+        "passHash": "d9ee629b4d29d95a7e211cebc47c8d705772bc3bddd962e078a4643d8941d417",
+        "examenes": []
+      },
+      {
+        "nombre": "Fernández Barreda, Iker",
+        "grupo": "E2B",
+        "pass": "Barreda",
+        "passHash": "8f1d5f1aeb64945fb6b8fcae1dded1b98609a40939189fba8ef3714b10f219b5",
+        "examenes": []
+      },
+      {
+        "nombre": "Fernández González, Xael (B)",
+        "grupo": "E2B",
+        "pass": "vrRZ7tIR",
+        "passHash": "86487543e6589c2aa632b4c4a6a8e4d1dd33d5ad9960f5761fe2c26c0af95dbd",
+        "examenes": []
+      },
+      {
+        "nombre": "Fernández Montes, David",
+        "grupo": "E2B",
+        "pass": "c5iCYCrM",
+        "passHash": "759e0846f2720c3e3fe53c0c8218761eed600fc77c4e316d7783eca37ee142d4",
+        "examenes": []
+      },
+      {
+        "nombre": "Garcia Cabo, Marco (B)",
+        "grupo": "E2B",
+        "pass": "egQuXZHZ",
+        "passHash": "3df13e8cb7789cc79fc31ce804f01dbc34e8f82d1c73c1e4f91278638caedcf0",
+        "examenes": []
+      },
+      {
+        "nombre": "Garcia Gomez, Julia (B)",
+        "grupo": "E2B",
+        "pass": "4JQJKx2G",
+        "passHash": "dd73506238d1eaa533168e70e0dba00f53493b6882cedc09e0c6c44791fd3c05",
+        "examenes": []
+      },
+      {
+        "nombre": "Garrido Álvaro, Cristina",
+        "grupo": "E2B",
+        "pass": "khYHMqGP",
+        "passHash": "e1432534ffd764b214e710f0441fd86bc4c76a4d4d7c34bb76f75dc9bf3e3897",
+        "examenes": []
+      },
+      {
+        "nombre": "Gayol Iturregui, Carla (B)",
+        "grupo": "E2B",
+        "pass": "gObkGj8U",
+        "passHash": "472186f1c824e059efb84903246475c7045f1e0b04163eb63c579be5b41c1f9e",
+        "examenes": []
+      },
+      {
+        "nombre": "Gutiérrez Blanco, Olga (B)",
+        "grupo": "E2B",
+        "pass": "te5CeCZG",
+        "passHash": "61a789734ce2b4b7920a387051285241bfdd0ab53f39b51e7f22ac7f4dad859c",
+        "examenes": []
+      },
+      {
+        "nombre": "Iglesias Rubín, Esther",
+        "grupo": "E2B",
+        "pass": "Iglesias",
+        "passHash": "ff6f4811a5abd097a3cbdd65b57239ea3e98fc6f6833356e00ee37547da36524",
+        "examenes": []
+      },
+      {
+        "nombre": "Kadiri El Boustaoui, Mosaab",
+        "grupo": "E2B",
+        "pass": "Boustaoui",
+        "passHash": "fd6cefd7115e581ee8e14756d910eacc97b6c3e1524ab2898e70760b2a568a23",
+        "examenes": []
+      },
+      {
+        "nombre": "Martínez Manteca, Nerea",
+        "grupo": "E2B",
+        "pass": "Manteca",
+        "passHash": "ad8a6559dc524d09d1c89990a4d821fd19353a94b38a9c82e1a354c7fbd55c74",
+        "examenes": []
+      },
+      {
+        "nombre": "Mazon Vidal, Alex",
+        "grupo": "E2B",
+        "pass": "upILvxpA",
+        "passHash": "a9256e0b2775c542953dcdb76424661e4d3d404d2a4799239a5925d14a2c3fe9",
+        "examenes": []
+      },
+      {
+        "nombre": "Oria Gómez, Elena",
+        "grupo": "E2B",
+        "pass": "KGVIyDIE",
+        "passHash": "34df376d02c07899e13017336703c44c2126283763fa8e999f27808bf38d5c89",
+        "examenes": []
+      },
+      {
+        "nombre": "Saiz Pereira, Borja",
+        "grupo": "E2B",
+        "pass": "Pereira",
+        "passHash": "0ddf4be72fce5c84fdc579597bcc34c6213e8c8b8d51616d1e3644803da42239",
+        "examenes": []
+      },
+      {
+        "nombre": "Santiago Fernandez, Raul",
+        "grupo": "E2B",
+        "pass": "Fernandez",
+        "passHash": "5f38a7b1b499d5c1fb82298cdd861d8534bda4ed2a40edd2ec2b360e83bb9af2",
+        "examenes": []
+      },
+      {
+        "nombre": "Varela De la Cruz, Diego",
+        "grupo": "E2B",
+        "pass": "vbH0gaW6",
+        "passHash": "3f39a71e9cc6a74e04983cdf518b749f02ec3f3578f6532202a7777940023d35",
+        "examenes": []
+      },
+      {
+        "nombre": "Vega Valcarcel, Daniela (B)Nº orden AlumnoTUTOR :AÑO ACADÉMICO 2025/2026",
+        "grupo": "E2B",
+        "pass": "pdtQPQod",
+        "passHash": "1d4e8d60dba32959813d20ff93617be14ad0c785e5bfe3ff81090a21e75b2cc1",
+        "examenes": []
+      }
+    ],
+    "E3A": [
+      {
+        "nombre": "24Arias Sánchez, Alba",
+        "grupo": "E3A",
+        "pass": "ZsVLPluE",
+        "passHash": "4188c2b03541220d42f0e896d797dfa4dd506e71a858254be41d523a517fc84c",
+        "examenes": []
+      },
+      {
+        "nombre": "Cabezas Hormaechea, Hugo",
+        "grupo": "E3A",
+        "pass": "Hormaechea",
+        "passHash": "8b0a32a13d24395bfb3e389819cce939ac6bdebc5950f00f7dcd705d649d525d",
+        "examenes": []
+      },
+      {
+        "nombre": "Candelario Anuarbe, Patricia",
+        "grupo": "E3A",
+        "pass": "Gqasl7Dv",
+        "passHash": "8f095c708f8fc28047f0fe1e7d9760e51b66b49f6b1fa95f680049719d8852e5",
+        "examenes": []
+      },
+      {
+        "nombre": "Castro Muñoz, Nayra Anais",
+        "grupo": "E3A",
+        "pass": "lx72hw7d",
+        "passHash": "d7195ffedc9a786dfbc48596d04428ea8a56b98f60ffbe24b4cff82a919b7072",
+        "examenes": []
+      },
+      {
+        "nombre": "Estrada Soberón, Agueda",
+        "grupo": "E3A",
+        "pass": "Estrada",
+        "passHash": "06bbd7af91f87acccef841616eb7e7535ecf79616755e9425e762a4304c4ee9d",
+        "examenes": []
+      },
+      {
+        "nombre": "González Cabarga, Alfonso",
+        "grupo": "E3A",
+        "pass": "A2DATfjW",
+        "passHash": "2c115a72760be0cae4735b1b1e3785c344af1f06ef9abe1edd6da6f5b8c4c594",
+        "examenes": []
+      },
+      {
+        "nombre": "Grande Acebo, Vega (B)",
+        "grupo": "E3A",
+        "pass": "QcxgG2A5",
+        "passHash": "5f11cc1fb774b01a3c17a00fe5e55c81c19af3f2bf1c325b0567f7f0b97f5105",
+        "examenes": []
+      },
+      {
+        "nombre": "Grande Hoyos, Yeray",
+        "grupo": "E3A",
+        "pass": "9rEF8Tar",
+        "passHash": "53d1ce65c0f23862c50198289f83037f3a0f47158c3f24c1e5cc45af2462c119",
+        "examenes": []
+      },
+      {
+        "nombre": "Gutiérrez Garcia, Saul (B)",
+        "grupo": "E3A",
+        "pass": "lBzNpB3V",
+        "passHash": "0e95ef1504bce7b6f4c12c55c687d321043443082a3b3dd7a6fe502256957b62",
+        "examenes": []
+      },
+      {
+        "nombre": "Gutiérrez López, Martina",
+        "grupo": "E3A",
+        "pass": "HHh3KnO1",
+        "passHash": "abb6d0d10a9c88467116ca9694254ebb4e62e1778f0e75d9970e153cbf25d50b",
+        "examenes": []
+      },
+      {
+        "nombre": "Hernández Criado, Naiara",
+        "grupo": "E3A",
+        "pass": "huvJRBSQ",
+        "passHash": "1f776452b7885b2b49f5461aa635ff04e468d2011a610ebb7817e566759914f5",
+        "examenes": []
+      },
+      {
+        "nombre": "Hurtado Gutiérrez, Izara (B)",
+        "grupo": "E3A",
+        "pass": "itVn4XCy",
+        "passHash": "1b94b56a23e9b0faaaa3fd107ccfcd693d47cc685368c1eefab4843fd89af7db",
+        "examenes": []
+      },
+      {
+        "nombre": "Lakhdar Ajbirh, Nour (B)",
+        "grupo": "E3A",
+        "pass": "H2QAp503",
+        "passHash": "9aea937367dc03644f62e2898a9c5da0d72014bb65cdcb3ee753f9f5006eb0bd",
+        "examenes": []
+      },
+      {
+        "nombre": "López Castanedo, Alba",
+        "grupo": "E3A",
+        "pass": "Castanedo",
+        "passHash": "c52908bba3d5224eb359daac2651175362c940b9d6c9eeca1bb32c156773591e",
+        "examenes": []
+      },
+      {
+        "nombre": "Machado Cifuentes, Daniel Alejandro",
+        "grupo": "E3A",
+        "pass": "0ZSYNnvB",
+        "passHash": "e5d726c933e930e9e546f85f14f71a5af83809c41db445ad09ebf5c3b76ea5fe",
+        "examenes": []
+      },
+      {
+        "nombre": "Martínez Pérez, Martina Irene (B)",
+        "grupo": "E3A",
+        "pass": "7U5FyqXZ",
+        "passHash": "566730284535a8ba5eb09870446e6e831a3cc841d370322d77fa9852d94ada8f",
+        "examenes": []
+      },
+      {
+        "nombre": "Mazo Blanco, Susana",
+        "grupo": "E3A",
+        "pass": "gIyVeRfh",
+        "passHash": "3570bfb78fec7b6bcceb272294a662952be20437595f44d47b8c2740644b7a94",
+        "examenes": []
+      },
+      {
+        "nombre": "Montes González, Mario (B)",
+        "grupo": "E3A",
+        "pass": "DIJlhsEv",
+        "passHash": "13c5ed6228ac39747cbf1e105cf35aa22e713e1e895d1a7cf9b778f1afa5cfc7",
+        "examenes": []
+      },
+      {
+        "nombre": "Rubio Cruz, Valeria",
+        "grupo": "E3A",
+        "pass": "TmUGRDkX",
+        "passHash": "9558d4c2aed48c519a2d96ea9f683074beee9a6502d475810487341675c93e9b",
+        "examenes": []
+      },
+      {
+        "nombre": "Saiz García, María (B)",
+        "grupo": "E3A",
+        "pass": "b3ndf3RF",
+        "passHash": "db5e8f845fe34662891697875d2f5305e9225459afd5c228f775e5f12c7e3a40",
+        "examenes": []
+      },
+      {
+        "nombre": "Santiago Quintana, Daniel (B)",
+        "grupo": "E3A",
+        "pass": "YJ5hHcjS",
+        "passHash": "b9b261da39b4183149253a9e1902a8dfa2319dc8f55e5f0978841eeb970e9d81",
+        "examenes": []
+      },
+      {
+        "nombre": "Tapia Mazón, Noa",
+        "grupo": "E3A",
+        "pass": "o0nIat1i",
+        "passHash": "03743f654f9b32d20bb9a778220ebbb3e34c7f06996a6285f70573a55a86e506",
+        "examenes": []
+      },
+      {
+        "nombre": "Vázquez López, Iduna (B)Nº orden AlumnoTUTOR :AÑO ACADÉMICO 2025/2026",
+        "grupo": "E3A",
+        "pass": "qmSP267N",
+        "passHash": "b557389245bfc5be1a2be69d77603f197276c30f99aeab3347cfe72367dd7828",
+        "examenes": []
+      }
+    ],
+    "E3B": [
+      {
+        "nombre": "21Adjei Kumi, Mabel Korkor",
+        "grupo": "E3B",
+        "pass": "b6zYwXZw",
+        "passHash": "1dc82445045349a2bf6b312c38780d3b66cfc96762f621d77ddbac5b8ebec887",
+        "examenes": []
+      },
+      {
+        "nombre": "Aja García, Sofía",
+        "grupo": "E3B",
+        "pass": "jpdnKeVH",
+        "passHash": "b914eb5944c6673df406c5a21a010fe0ff4bd06c514b4bfc4852195cddb0d772",
+        "examenes": []
+      },
+      {
+        "nombre": "Arena Rojo, Aitana",
+        "grupo": "E3B",
+        "pass": "mT5tgIqJ",
+        "passHash": "a31f24755a3573478be650e04dd549d1a4699e8eae89e93fc00b548ae5148706",
+        "examenes": []
+      },
+      {
+        "nombre": "Bordetas González, Izan",
+        "grupo": "E3B",
+        "pass": "Bordetas",
+        "passHash": "24c5ad4b1047ad682b2e6ea44ec1cdfeb8b428c2bbc44198beb0e7b415fd055e",
+        "examenes": []
+      },
+      {
+        "nombre": "Cobo Herrera, Pablo",
+        "grupo": "E3B",
+        "pass": "Herrera",
+        "passHash": "10eb1eee807536048c3b55f44cc5fe82ae6ab3c4fa89226758a41d02bd53e5d2",
+        "examenes": []
+      },
+      {
+        "nombre": "De Cos Obregon, Nekane",
+        "grupo": "E3B",
+        "pass": "Obregon",
+        "passHash": "b37084eb750ad55a00dcc1bde6ce3e5148669725da819189856db98c53322b9a",
+        "examenes": []
+      },
+      {
+        "nombre": "Del Rosario Blanco, Daniela",
+        "grupo": "E3B",
+        "pass": "pq4jf8cl",
+        "passHash": "9b0ee1c2e566938c044e5fe7572daf6884a2fbdb9f51a1098973f590aa914bb4",
+        "examenes": []
+      },
+      {
+        "nombre": "El Amraoui El Amraoui, Widad",
+        "grupo": "E3B",
+        "pass": "Amraoui",
+        "passHash": "69a0fd046789f3e71334b1ce7a4df41c9a1a5b8c06313ca3cceaa23dfcebfc02",
+        "examenes": []
+      },
+      {
+        "nombre": "Huayambe Ccahuay, Angely Christell",
+        "grupo": "E3B",
+        "pass": "viHoaDKk",
+        "passHash": "c0ae6459138535b8a4eb5c9ba81debc09033df36349334a7c19eeeb3f6e86130",
+        "examenes": []
+      },
+      {
+        "nombre": "Lombilla Miera, Daniela",
+        "grupo": "E3B",
+        "pass": "Kwy1ChF7",
+        "passHash": "d0c5a655ef292b6e544508d04e99dbb2c69026baccc421359b8faabfc9a0e9ef",
+        "examenes": []
+      },
+      {
+        "nombre": "López Vallés, Daniel",
+        "grupo": "E3B",
+        "pass": "Td3ClZdU",
+        "passHash": "6848836b848c7f4401cb0ff4d5cbe62ba0957eafdca8f978ffeea67c2b023143",
+        "examenes": []
+      },
+      {
+        "nombre": "Mendoza Medrano, Axel Santiago",
+        "grupo": "E3B",
+        "pass": "zxOQlmMk",
+        "passHash": "72e2e3d14b9f7fd5be8c95b16ee25f5ca253101b2a537849fac9215bda70caa8",
+        "examenes": []
+      },
+      {
+        "nombre": "Mendoza Ramirez, Jean Franco Josue",
+        "grupo": "E3B",
+        "pass": "Ramirez",
+        "passHash": "266a7b5eddfcd6b1f5dd142fada6c3f6f202056170bda4afc64094ff578edddb",
+        "examenes": []
+      },
+      {
+        "nombre": "Ortiz Quevedo, Mateo",
+        "grupo": "E3B",
+        "pass": "Quevedo",
+        "passHash": "fc82cbc629347c890fed03944ec3eb7431199b6b01b2a6064b19268e2576965b",
+        "examenes": []
+      },
+      {
+        "nombre": "Posada Pérez, Lucía",
+        "grupo": "E3B",
+        "pass": "i74QivVI",
+        "passHash": "ec4c359a7c43d312b2b52a67b7ac3d4777ed8d09b5c9694bc07800fcbd16cd97",
+        "examenes": []
+      },
+      {
+        "nombre": "Shoaib , Muhammad",
+        "grupo": "E3B",
+        "pass": "r8U6MrDe",
+        "passHash": "92a308c70e233ae97e0eeadcc778af340f5df30d2f02a87ebbba6073b20d1d0f",
+        "examenes": []
+      },
+      {
+        "nombre": "Soares De Paula, Maria Victoria",
+        "grupo": "E3B",
+        "pass": "9rXlo3sE",
+        "passHash": "7130e175eead7acf6c9f5f31900d493711bdeb630b93907849e484d172b24701",
+        "examenes": []
+      },
+      {
+        "nombre": "Torres Murillo, Maricielo",
+        "grupo": "E3B",
+        "pass": "26O1mR05",
+        "passHash": "6067ca0d9deea197d147c8f31522b281b2a62b02dc17a3754a630e9514c3bc86",
+        "examenes": []
+      },
+      {
+        "nombre": "Urdaniga Linares, Héctor Miguel",
+        "grupo": "E3B",
+        "pass": "Linares",
+        "passHash": "ccde1c45ffd60f7b5ab190a81ceba51a00d2e975d8b043de90476ed27b3c67d6",
+        "examenes": []
+      },
+      {
+        "nombre": "Verea Carretero, Mariangel",
+        "grupo": "E3B",
+        "pass": "0kpnNCal",
+        "passHash": "c93fe3c451d85a8bc61ec381be82ddc6f45e6afea6562c689a6eb22a08236be7",
+        "examenes": []
+      },
+      {
+        "nombre": "Villegas Carrera, IsmaelNº orden AlumnoTUTOR :AÑO ACADÉMICO 2025/2026",
+        "grupo": "E3B",
+        "pass": "8iNypDhG",
+        "passHash": "cdb07a041e13d8a283e9a5ff7a40c1aa1a617cdd1344703f95cd46d1e7c82ebd",
+        "examenes": []
+      },
+      {
+        "nombre": "Brkic Brkic, Filip",
+        "grupo": "E3B",
+        "pass": "uPlmg6tI",
+        "passHash": "9832a6165ee2ef52a98fc5e7c4685574e3a72705f646fe75c87282f483f015ac",
+        "examenes": [
+          {
+            "titulo": "Examen 1",
+            "fecha": "",
+            "nota": 6.8,
+            "peso": 1.0
+          }
+        ]
+      }
+    ],
+    "E3C": []
+  }
+}
