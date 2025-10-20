@@ -116,4 +116,10 @@
       { "nombre": "Posada Pérez, Lucía", "grupo": "E3C", "pass": "i74QivVI", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 9.3, "peso": 1.0 } ] },
       { "nombre": "Shoaib , Muhammad", "grupo": "E3C", "pass": "r8U6MrDe", "notas": {}, "examenes": [] },
       { "nombre": "Soares De Paula, Maria Victoria", "grupo": "E3C", "pass": "9rXlo3sE", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 3.7, "peso": 1.0 } ] },
-      { "nombre": "Torres Murillo, Maricielo", "grupo": "E3C", "pass": "26O1mR05", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 6.0, "peso": 1.0 } ]
+      { "nombre": "Torres Murillo, Maricielo", "grupo": "E3C", "pass": "26O1mR05", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 6.0, "peso": 1.0 } ] },
+      { "nombre": "Urdaniga Linares, Héctor Miguel", "grupo": "E3C", "pass": "Linares", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 6.8, "peso": 1.0 } ] },
+      { "nombre": "Verea Carretero, Mariangel", "grupo": "E3C", "pass": "0kpnNCal", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 3.7, "peso": 1.0 } ] },
+      { "nombre": "Villegas Carrera, Ismael", "grupo": "E3C", "pass": "ZH8nJIAn", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 6.5, "peso": 1.0 } ] }
+    ]
+  }
+}
