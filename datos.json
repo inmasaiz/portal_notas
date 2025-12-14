@@ -20,7 +20,7 @@
       { "nombre": "Rodríguez González, Eloy (B)", "grupo": "E2A", "pass": "kE7pH3qS", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 10.2, "peso": 1.0 }, { "titulo": "EXAMEN 2", "fecha": "", "nota": 9.6, "peso": 1.0 } ] },
       { "nombre": "Rosillo Castellón, Oscar", "grupo": "E2A", "pass": "C1tV9uYb", "notas": {}, "examenes": [] },
       { "nombre": "San Jose Zurita, Airam", "grupo": "E2A", "pass": "N5qR2mZx", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 10.2, "peso": 1.0 }, { "titulo": "EXAMEN 2", "fecha": "", "nota": 9.7, "peso": 1.0 } ] },
-      { "nombre": "Santos García de los Salmones, Jimena", "grupo": "E2A", "pass": "J8mK4sDd", "notas": {}, "examenes": [ { "titulo": "EXAMEN 2", "fecha": "", "nota": 7.8, "peso": 1.0 } ] }
+      { "nombre": "Santos García de los Salmones, Jimena", "grupo": "E2A", "pass": "J8mK4sDd", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 8.9, "peso": 1.0 }, { "titulo": "EXAMEN 2", "fecha": "", "nota": 7.8, "peso": 1.0 } ] }
     ],
     "E2B": [
       { "nombre": "Bautista Ureña, Yainer Alexander", "grupo": "E2B", "pass": "erxBAyah", "notas": {}, "examenes": [ { "titulo": "EXAMEN 1", "fecha": "", "nota": 4.6, "peso": 1.0 }, { "titulo": "EXAMEN 2", "fecha": "", "nota": 5.8, "peso": 1.0 } ] },
